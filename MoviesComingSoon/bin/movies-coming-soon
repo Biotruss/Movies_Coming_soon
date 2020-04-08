@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/movies_coming_soon'
+
+MoviesComingSoon::CLI.new.call
